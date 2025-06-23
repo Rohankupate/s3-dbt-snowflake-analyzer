@@ -1,0 +1,28 @@
+# Data folders
+/ml-20m/
+*.csv
+*.tsv
+
+# Python virtual environments
+/venv/
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# DBT artifacts
+target/
+dbt_modules/
+logs/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secret or token files
+*.txt
